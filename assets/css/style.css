@@ -55,14 +55,13 @@ input {
 }
 
 body {
-  background-color: var(--body-color);
-  color: var(--text-color);
+  color: var(--very-dark-blue);
 }
 
 h1,
 h2,
 h3 {
-  color: var(--title-color);
+  color: var(--very-dark-blue);
   font-weight: var(--font-bold);
 }
 
@@ -85,4 +84,156 @@ img {
 
   width: min(var(--max-width), 100% - (var(--padding) * 2));
   margin-inline: auto;
+}
+
+.button {
+  padding: 0.8em;
+  background-color: var(--bright-blue);
+  border: none;
+  border-radius: 5px;
+}
+
+/* Header */
+
+.header__columnas {
+  display: flex;
+  padding-block: 1rem;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.header__logo {
+  width: 35%;
+}
+
+.navigation__list {
+  display: flex;
+  gap: 1rem;
+}
+
+.navigation__link {
+  color: var(--very-dark-blue);
+}
+
+/* Home */
+
+.home__columnas {
+  display: flex;
+  flex-direction: column-reverse;
+}
+
+.home__title {
+  font-size: 1.5rem;
+  font-family: var(--second-font);
+  text-align: center;
+  padding-bottom: 1rem;
+}
+
+.home__description {
+  text-align: center;
+  padding-bottom: 2rem;
+}
+
+.home__right {
+  padding-top: 4rem;
+  padding-bottom: 2rem;
+}
+
+.home__form {
+  display: flex;
+  flex-direction: column;
+  row-gap: 1rem;
+  padding-bottom: 2rem;
+}
+
+.home__form-input {
+  padding: 0.6rem;
+  border: 1px solid var(--very-dark-blue);
+  border-radius: 5px;
+  color: var(--light-gray);
+}
+
+.home__form-button {
+  color: #fff;
+  font-weight: 700;
+}
+
+/* Productive */
+
+.productive {
+  background-color: var(--light-grayish-blue);
+}
+
+.productive__columnas {
+  display: flex;
+  flex-direction: column-reverse;
+  row-gap: 4rem;
+  padding-bottom: 2rem;
+}
+
+.productive__left {
+  text-align: center;
+}
+
+.productive__title {
+  font-size: 1.5rem;
+  font-family: var(--second-font);
+  text-align: center;
+  padding-bottom: 1rem;
+}
+
+.productive__description-a {
+  padding-bottom: 1rem;
+  text-align: initial;
+  color: var(--desaturated-blue);
+}
+
+.productive__description-b {
+  padding-bottom: 1rem;
+  text-align: initial;
+  color: var(--desaturated-blue);
+}
+
+.productive__description-link {
+  color: var(--moderate-cyan);
+  text-decoration: underline;
+}
+
+.productive__testimonio {
+  margin-block: 2rem;
+  margin-inline: auto;
+  background-color: #fff;
+  width: 75%;
+  border-radius: 5px;
+  box-shadow: 0 4px 8px hsla(180, 12%, 4%, 0.3);
+}
+
+.producto__testimonio-quote {
+  line-height: 1.5;
+  text-align: left;
+  font-size: 0.9rem;
+  padding: 1rem;
+}
+
+.productive__testimonio-name {
+  display: flex;
+  font-size: 0.9rem;
+  padding: 1rem;
+}
+
+.productive__testimonio-img {
+  border-radius: 50%;
+  width: 20%;
+}
+
+.productive__testimonio-line1 {
+  text-align: left;
+  margin-left: 0.5rem;
+  font-weight: var(--font-bold);
+}
+
+.productive__testimonio-line2 {
+  text-align: left;
+  margin-left: 0.5rem;
+  font-size: 0.7rem;
 }

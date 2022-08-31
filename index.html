@@ -18,26 +18,30 @@
   <body>
     <header class="header">
       <div class="container">
-        <a href="#"><img src="/images/logo.svg" alt="Logo IMG" /></a>
-        <nav class="navigation">
-          <ul class="navigation__list">
-            <li class="navigation__links">
-              <a href="#" class="navigation__link">Features</a>
-            </li>
-            <li class="navigation__links">
-              <a href="#" class="navigation__link">Team</a>
-            </li>
-            <li class="navigation__links">
-              <a href="#" class="navigation__link">Sign In</a>
-            </li>
-          </ul>
-        </nav>
+        <div class="header__columnas">
+          <a href="#" class="header__logo"
+            ><img src="/images/logo.svg" alt="Logo IMG"
+          /></a>
+          <nav class="navigation">
+            <ul class="navigation__list">
+              <li class="navigation__links">
+                <a href="#" class="navigation__link">Features</a>
+              </li>
+              <li class="navigation__links">
+                <a href="#" class="navigation__link">Team</a>
+              </li>
+              <li class="navigation__links">
+                <a href="#" class="navigation__link">Sign In</a>
+              </li>
+            </ul>
+          </nav>
+        </div>
       </div>
     </header>
     <main>
       <section class="home">
         <div class="container">
-          <div class="columnas">
+          <div class="home__columnas">
             <div class="home__left">
               <h1 class="home__title">
                 All your files in one secure location, accessible anywhere.
@@ -53,9 +57,9 @@
                   type="email"
                   name=""
                   id=""
-                  placeholder="Email"
+                  placeholder="Enter your email..."
                 />
-                <button class="home__form-button" type="submit">
+                <button class="home__form-button button" type="submit">
                   Get Started
                 </button>
               </form>
@@ -68,22 +72,23 @@
       </section>
       <section class="productive">
         <div class="container">
-          <div class="columnas">
+          <div class="productive__columnas">
             <div class="productive__left">
               <h2 class="productive__title">
                 Stay productive, wherever you are
               </h2>
               <p class="productive__description-a">
-                Stay productive, wherever you are Never let location be an issue
-                when accessing your files. Fylo has you covered for all of your
-                file storage needs.
+                Never let location be an issue when accessing your files. Fylo
+                has you covered for all of your file storage needs.
               </p>
               <p class="productive__description-b">
                 Securely share files and folders with friends, family and
                 colleagues for live collaboration. No email attachments
                 required!
               </p>
-              <a href="#">See how Fylo works</a>
+              <a class="productive__description-link" href="#"
+                >See how Fylo works</a
+              >
               <div class="productive__testimonio">
                 <p class="producto__testimonio-quote">
                   Fylo has improved our team productivity by an order of
@@ -96,10 +101,12 @@
                     src="images/avatar-testimonial.jpg"
                     alt="Avatar img"
                   />
-                  <p class="productive__testimonio-line1">Kyle Burton</p>
-                  <p class="productive__testimonio-line2">
-                    Founder & CEO, Huddle
-                  </p>
+                  <div class="productive__testimonio-ceo">
+                    <p class="productive__testimonio-line1">Kyle Burton</p>
+                    <p class="productive__testimonio-line2">
+                      Founder & CEO, Huddle
+                    </p>
+                  </div>
                 </div>
               </div>
             </div>
