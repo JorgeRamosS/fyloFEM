@@ -194,7 +194,12 @@ img {
   color: var(--desaturated-blue);
 }
 
+.ri-arrow-right-circle-fill {
+  font-size: 0.8rem;
+}
+
 .productive__description-link {
+  font-size: 1rem;
   color: var(--moderate-cyan);
   text-decoration: underline;
 }
@@ -236,4 +241,39 @@ img {
   text-align: left;
   margin-left: 0.5rem;
   font-size: 0.7rem;
+}
+
+/* Access */
+
+.access {
+  background: var(--desaturated-blue);
+  padding-block: 4rem;
+  display: flex;
+  flex-direction: column;
+}
+
+.access__title,
+.access__description {
+  padding-bottom: 2rem;
+  text-align: center;
+  color: #fff;
+}
+
+.access__form {
+  display: flex;
+  flex-direction: column;
+  row-gap: 1rem;
+  padding-bottom: 2rem;
+}
+
+.access__form-input {
+  padding: 0.6rem;
+  border: 1px solid var(--very-dark-blue);
+  border-radius: 5px;
+  color: var(--light-gray);
+}
+
+.access__form-button {
+  color: #fff;
+  font-weight: 700;
 }
