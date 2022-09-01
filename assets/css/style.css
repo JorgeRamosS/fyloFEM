@@ -188,7 +188,11 @@ img {
   text-align: center;
 }
 
-.productive__blob {
+.productive__blob-desktop {
+  display: none;
+}
+
+.productive__blob-mobile {
   width: 100%;
   top: -45px;
   position: relative;
@@ -347,4 +351,53 @@ img {
 .footer__info {
   text-align: center;
   font-size: 0.7rem;
+}
+
+/* ----Breakpoints---- */
+
+@media screen and (min-width: 45em) {
+  .home__columnas {
+    flex-direction: row;
+    column-gap: 3rem;
+    padding-block: 2rem;
+  }
+
+  .productive__columnas {
+    flex-direction: row;
+    column-gap: 3rem;
+    padding-block: 2rem;
+  }
+
+  .productive__blob-desktop {
+    display: block;
+    width: 100%;
+    top: -45px;
+    position: relative;
+  }
+
+  .productive__blob-mobile {
+    display: none;
+  }
+
+  .access__columnas {
+    display: flex;
+    column-gap: 3rem;
+  }
+
+  .access__left,
+  .access__right {
+    width: 50%;
+  }
+
+  .access__title,
+  .access__description {
+    text-align: left;
+  }
+
+  .footer__grid {
+    display: flex;
+    column-gap: 3rem;
+    justify-content: space-between;
+    align-items: baseline;
+  }
 }
