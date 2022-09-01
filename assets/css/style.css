@@ -180,6 +180,7 @@ img {
 }
 
 .productive__blob {
+  width: 100%;
   top: -45px;
   position: relative;
 }
