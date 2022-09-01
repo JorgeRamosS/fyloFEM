@@ -7,6 +7,7 @@
   --desaturated-blue: hsl(238, 22%, 44%);
 
   --bright-blue: hsl(224, 93%, 58%);
+  --bright-blue-hover: hsl(224, 97%, 65%);
   --moderate-cyan: hsl(170, 45%, 43%);
 
   --light-grayish-blue: hsl(240, 75%, 98%);
@@ -91,6 +92,11 @@ img {
   background-color: var(--bright-blue);
   border: none;
   border-radius: 5px;
+  cursor: pointer;
+}
+
+.button:hover {
+  background-color: var(--bright-blue-hover);
 }
 
 /* Header */
@@ -113,6 +119,9 @@ img {
 
 .navigation__link {
   color: var(--very-dark-blue);
+}
+.navigation__link:hover {
+  color: var(--bright-blue);
 }
 
 /* Home */
@@ -323,6 +332,9 @@ img {
 .footer__c-links,
 .footer__d-links {
   margin-bottom: 1rem;
+}
+.footer a:hover {
+  color: var(--bright-blue);
 }
 
 .footer__d-list {
