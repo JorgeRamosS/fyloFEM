@@ -117,6 +117,10 @@ img {
 
 /* Home */
 
+.home {
+  padding-bottom: 5rem;
+}
+
 .home__columnas {
   display: flex;
   flex-direction: column-reverse;
@@ -173,6 +177,11 @@ img {
 
 .productive__left {
   text-align: center;
+}
+
+.productive__blob {
+  top: -45px;
+  position: relative;
 }
 
 .productive__title {
@@ -323,5 +332,6 @@ img {
 }
 
 .footer__info {
+  text-align: center;
   font-size: 0.7rem;
 }
