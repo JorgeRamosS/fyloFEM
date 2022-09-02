@@ -147,6 +147,10 @@ img {
   padding-bottom: 2rem;
 }
 
+.home__left {
+  margin-block: auto;
+}
+
 .home__right {
   padding-top: 4rem;
   padding-bottom: 2rem;
@@ -285,7 +289,7 @@ img {
 .access__form {
   display: flex;
   flex-direction: column;
-  row-gap: 1rem;
+  row-gap: 2rem;
   padding-bottom: 2rem;
 }
 
@@ -356,27 +360,58 @@ img {
 /* ----Breakpoints---- */
 
 @media screen and (min-width: 45em) {
+  .header__columnas {
+    padding-block: 2rem;
+  }
+
   .home__columnas {
     flex-direction: row;
     column-gap: 3rem;
     padding-block: 2rem;
   }
 
+  .home__form {
+    flex-direction: row;
+    justify-content: space-between;
+  }
+
+  .home__form-input {
+    width: 60%;
+  }
+
+  .home__form-button {
+    width: 35%;
+  }
+
+  .home__title,
+  .home__description,
+  .productive__title,
+  .productive__description-a,
+  .productive__description-b,
+  .productive__left {
+    text-align: left;
+  }
+
   .productive__columnas {
     flex-direction: row;
     column-gap: 3rem;
-    padding-block: 2rem;
+    padding-top: 2rem;
+    padding-bottom: 3rem;
   }
 
   .productive__blob-desktop {
     display: block;
     width: 100%;
-    top: -45px;
+    top: -58px;
     position: relative;
   }
 
   .productive__blob-mobile {
     display: none;
+  }
+
+  .productive__testimonio {
+    margin-inline: initial;
   }
 
   .access__columnas {
@@ -399,5 +434,18 @@ img {
     column-gap: 3rem;
     justify-content: space-between;
     align-items: baseline;
+  }
+
+  .access__form-button {
+    width: 50%;
+  }
+}
+
+@media screen and (min-width: 1182px) {
+  .productive__blob-desktop {
+    display: block;
+    width: 100%;
+    top: -105px;
+    position: relative;
   }
 }
