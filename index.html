@@ -60,6 +60,8 @@
               <form action="" class="home__form">
                 <input
                   class="home__form-input"
+                  pattern="[A-Za-z0-9._+-]+@[A-Za-z0-9 -]+\.[a-z]{2,}"
+                  required
                   type="email"
                   name=""
                   id=""
@@ -147,6 +149,8 @@
               <form action="" class="access__form">
                 <input
                   type="email"
+                  pattern="[A-Za-z0-9._+-]+@[A-Za-z0-9 -]+\.[a-z]{2,}"
+                  required
                   class="access__form-input"
                   placeholder="email@example.com"
                 />
