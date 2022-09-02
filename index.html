@@ -57,16 +57,16 @@
                 Access them wherever you need, share and collaborate with
                 friends, family, and co-workers.
               </p>
-              <form action="" class="home__form">
+              <form action="" class="home__form" id="contact-form">
                 <input
                   class="home__form-input"
                   pattern="[A-Za-z0-9._+-]+@[A-Za-z0-9 -]+\.[a-z]{2,}"
-                  required
                   type="email"
                   name=""
-                  id=""
+                  id="contact-user"
                   placeholder="Enter your email..."
                 />
+                <p class="home__message" id="contact-message"></p>
                 <button class="home__form-button button" type="submit">
                   Get Started
                 </button>
@@ -146,14 +146,15 @@
               </p>
             </div>
             <div class="access__right">
-              <form action="" class="access__form">
+              <form action="" class="access__form" id="access-form">
                 <input
                   type="email"
                   pattern="[A-Za-z0-9._+-]+@[A-Za-z0-9 -]+\.[a-z]{2,}"
-                  required
                   class="access__form-input"
+                  id="access-user"
                   placeholder="email@example.com"
                 />
+                <p class="access__message" id="access-message"></p>
                 <button class="access__form-button button" type="submit">
                   Get Started For Free
                 </button>
