@@ -9,6 +9,7 @@
   --bright-blue: hsl(224, 93%, 58%);
   --bright-blue-hover: hsl(224, 97%, 65%);
   --moderate-cyan: hsl(170, 45%, 43%);
+  --moderate-cyan-hover: hsl(170, 54%, 62%);
 
   --light-grayish-blue: hsl(240, 75%, 98%);
   --light-gray: hsl(0, 0%, 75%);
@@ -242,6 +243,10 @@ img {
   font-size: 1rem;
   color: var(--moderate-cyan);
   text-decoration: underline;
+}
+
+.productive__description-link:hover {
+  color: var(--moderate-cyan-hover);
 }
 
 .productive__testimonio {
