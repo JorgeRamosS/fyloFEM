@@ -177,7 +177,7 @@ img {
 
 .home__message {
   position: absolute;
-  transform: translateY(3.5rem);
+  transform: translateY(2.7rem);
 }
 
 .color-red {
@@ -185,6 +185,7 @@ img {
 }
 
 .home__form-button {
+  margin-top: 1rem;
   color: #fff;
   font-weight: 700;
 }
@@ -395,6 +396,10 @@ img {
     flex-direction: row;
     column-gap: 3rem;
     padding-block: 2rem;
+  }
+  
+  .home__message {
+  transform: translateY(3.5rem);
   }
 
   .home__form {
