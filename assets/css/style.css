@@ -398,6 +398,14 @@ img {
     padding-block: 2rem;
   }
   
+  .home__form {
+    align-items: baseline;
+  }
+
+  .home__form-input {
+    height: 45px;
+  }
+  
   .home__message {
   transform: translateY(3.5rem);
   }
@@ -474,6 +482,11 @@ img {
 }
 
 @media screen and (min-width: 1182px) {
+  
+  .home__message {
+    transform: translateY(4rem);
+  }
+  
   .productive__blob-desktop {
     display: block;
     width: 100%;
